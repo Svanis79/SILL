@@ -1,0 +1,12 @@
+mnuFileTxt$=Right$(MenuTxt$(1),Len(MenuTxt$(1))-Instr(MenuTxt$(1),"="))
+mnuFileReset$=Right$(MenuTxt$(2),Len(MenuTxt$(2))-Instr(MenuTxt$(2),"="))
+mnuFileWipe$=Right$(MenuTxt$(3),Len(MenuTxt$(3))-Instr(MenuTxt$(3),"="))
+mnuFileQuitTxt$=Right$(MenuTxt$(4),Len(MenuTxt$(4))-Instr(MenuTxt$(4),"="))+Chr$(8)+"Alt+F4"
+mnuSettings$=Right$(MenuTxt$(5),Len(MenuTxt$(5))-Instr(MenuTxt$(5),"="))
+mnuSettingsLanguage$=Right$(MenuTxt$(6),Len(MenuTxt$(6))-Instr(MenuTxt$(6),"="))
+mnuTrain$=Right$(MenuTxt$(7),Len(MenuTxt$(7))-Instr(MenuTxt$(7),"="))
+mnuTrainGoodresponse$=Right$(MenuTxt$(8),Len(MenuTxt$(8))-Instr(MenuTxt$(8),"="))
+mnuTrainBadresponse$=Right$(MenuTxt$(9),Len(MenuTxt$(9))-Instr(MenuTxt$(9),"="))
+mnuHelp$=Right$(MenuTxt$(10),Len(MenuTxt$(10))-Instr(MenuTxt$(10),"="))
+mnuHelpHelp$=Right$(MenuTxt$(11),Len(MenuTxt$(11))-Instr(MenuTxt$(11),"="))+Chr$(8)+"F1"
+mnuHelpAbout$=Right$(MenuTxt$(12),Len(MenuTxt$(12))-Instr(MenuTxt$(12),"="))
